@@ -1,0 +1,24 @@
+{{!-- Se crea un handlebars para la vista de realTimeProducts que actualiza la lista de productos utilizando socket.io
+--}}
+
+<h1>Bienvenido {{userName}}</h1>
+
+<p>Tu rol es: {{userRole}}</p>
+
+<h2>Lista de productos</h2>
+
+{{!-- Se crea una lista de productos --}}
+
+<div id="productsContainer">
+      {{#each products}}
+      <h2>{{this.title}}</h2>
+      <p>Price: {{this.price}}</p>
+      <p>Category: {{this.category}}</p>
+      {{/each}}
+</div>
+
+{{!-- Se llama al script de socket.io --}}
+<script src="/socket.io/socket.io.js"></script>
+
+{{!-- Se llama al script de realTimeProducts --}}
+<script src="/js/realTimeProducts.js"></script>

@@ -1,0 +1,42 @@
+<h1 class="mb-3">Bienvenido {{userName}}</h1>
+
+<h4 class="mb-3">Tu rol es: {{userRole}}</h4>
+
+{{#if isUser}}
+<button type="submit" class="col-6 btn btn-primary rounded-0 ">
+      <a href="/profile" class="text-decoration-none text-reset">VER PERFIL</a>
+</button>
+{{/if}}
+
+<form action="/api/sessions/logout" method="post">
+      <button type="submit" class="col-6 btn btn-dark rounded-0">
+            <a class="text-decoration-none text-reset">CERRAR SESIÓN</a>
+      </button>
+</form>
+
+<h2 class="mt-5">Lista de productos</h2>
+<ul >
+      {{#each products}}
+      <li>
+            <h2>{{this.title}}</h2>
+            <p>Categoría: {{this.category}}</p>
+            <p>Precio: {{this.price}}</p>
+            <img src="{{this.thumbnails.[0]}}" alt="{{this.title}}">
+
+            <form action="" method="put">
+                  <input type="hidden" name="productId" value="{{this.id}}">
+                  <input type="submit" value="Agregar al carrito">
+            </form>
+
+            <a href="/products/{{this.id}}">Ver detalles</a>
+      </li>
+      {{/each}}
+</ul>
+
+<!-- Paginación -->
+{{#if hasNextPage}}
+<a href="/?page={{nextPage}}">Siguiente</a>
+{{/if}}
+{{#if hasPrevPage}}
+<a href="/?page={{prevPage}}">Anterior</a>
+{{/if}}

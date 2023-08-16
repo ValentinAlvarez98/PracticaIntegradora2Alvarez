@@ -1,0 +1,178 @@
+[
+  {
+    "_id": "64a7877a229dde5985530f4b",
+    "title": "Titulo 1",
+    "description": "Descripción 1",
+    "code": "Codigo 1",
+    "price": 100,
+    "status": true,
+    "stock": 10,
+    "category": "categoria 1",
+    "thumbnails": [
+      "https://example1.com/product1.jpg",
+      "https://example2.com/product1.jpg"
+    ],
+    "id": 43,
+    "__v": 0
+  },
+  {
+    "_id": "64a888c5053712a4e00e2750",
+    "title": "Titulo 2",
+    "description": "Descripción 2",
+    "code": "Codigo 2",
+    "price": 200,
+    "status": false,
+    "stock": 20,
+    "category": "categoria 2",
+    "thumbnails": [
+      "https://example1.com/product2.jpg",
+      "https://example2.com/product2.jpg"
+    ],
+    "id": 16,
+    "__v": 0
+  },
+  {
+    "_id": "64ab221332b3d3b5e686b777",
+    "title": "Titulo 3",
+    "description": "Descripción 3",
+    "code": "Codigo 3",
+    "price": 300,
+    "status": true,
+    "stock": 30,
+    "category": "categoria 3",
+    "thumbnails": [
+      "https://example1.com/product3.jpg",
+      "https://example2.com/product3.jpg"
+    ],
+    "id": 27,
+    "__v": 0
+  },
+  {
+    "_id": "64af882d2fc6aca09cc47881",
+    "title": "Titulo 4",
+    "description": "Descripción 4",
+    "code": "Codigo 4",
+    "price": 400,
+    "status": false,
+    "stock": 40,
+    "category": "categoria 4",
+    "thumbnails": [
+      "https://example1.com/product4.jpg",
+      "https://example2.com/product4.jpg"
+    ],
+    "id": 32,
+    "__v": 0
+  },
+  {
+    "_id": "64b5fe2280bc4309eba155eb",
+    "title": "Titulo 5",
+    "description": "Descripción 5",
+    "code": "Codigo 5",
+    "price": 500,
+    "status": true,
+    "stock": 50,
+    "category": "categoria 1",
+    "thumbnails": [
+      "https://example1.com/product5.jpg",
+      "https://example2.com/product5.jpg"
+    ],
+    "id": 96,
+    "__v": 0
+  },
+  {
+    "_id": "64b6e65a05dfe5c5337c9f8c",
+    "title": "Titulo 6",
+    "description": "Descripción 6",
+    "code": "Codigo 6",
+    "price": 600,
+    "status": true,
+    "stock": 60,
+    "category": "categoria 2",
+    "thumbnails": [
+      "https://example1.com/product6.jpg",
+      "https://example2.com/product6.jpg"
+    ],
+    "id": 86,
+    "__v": 0
+  },
+  {
+    "_id": "64b6e98522c551746339dfab",
+    "title": "Titulo 7",
+    "description": "Descripción 7",
+    "code": "Codigo 7",
+    "price": 700,
+    "status": true,
+    "stock": 70,
+    "category": "categoria 3",
+    "thumbnails": [
+      "https://example1.com/product7.jpg",
+      "https://example2.com/product7.jpg"
+    ],
+    "id": 15,
+    "__v": 0
+  },
+  {
+    "_id": "64b7150ef28f1c91aa4fd463",
+    "title": "Titulo 8",
+    "description": "Descripción 8",
+    "code": "Codigo 8",
+    "price": 800,
+    "status": true,
+    "stock": 80,
+    "category": "categoria 4",
+    "thumbnails": [
+      "https://example1.com/product8.jpg",
+      "https://example2.com/product8.jpg"
+    ],
+    "id": 25,
+    "__v": 0
+  },
+  {
+    "_id": "64b7154d5081fe95cd10afa8",
+    "title": "Titulo 9",
+    "description": "Descripción 9",
+    "code": "Codigo 9",
+    "price": 900,
+    "status": true,
+    "stock": 90,
+    "category": "categoria 1",
+    "thumbnails": [
+      "https://example1.com/product9.jpg",
+      "https://example2.com/product9.jpg"
+    ],
+    "id": 94,
+    "__v": 0
+  },
+  {
+    "_id": "64b715eef6bc2c5849dfe7ca",
+    "title": "Titulo 10",
+    "description": "Descripción 10",
+    "code": "Codigo 10",
+    "price": 1000,
+    "status": true,
+    "stock": 100,
+    "category": "categoria 2",
+    "thumbnails": [
+      "https://example1.com/product10.jpg",
+      "https://example2.com/product10.jpg"
+    ],
+    "id": 4,
+    "__v": 0
+  },
+  {
+    "_id": "64b87015080602886263d415",
+    "title": "Titulo 11",
+    "description": "Descripción 11",
+    "code": "Codigo 11",
+    "price": 1100,
+    "status": true,
+    "stock": 110,
+    "category": "categoria 1",
+    "thumbnails": [
+      "https://example1.com/product11.jpg",
+      "https://example2.com/product11.jpg"
+    ],
+    "id": 28,
+    "__v": 0
+  }
+]

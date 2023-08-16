@@ -1,0 +1,15 @@
+{{!-- Se crea la vista del detalle del carrito --}}
+<h1>Detalles del Carrito</h1>
+<p>Carrito ID: {{cart.id}}</p>
+<ul>
+      {{!-- Se recorre el array de productos del carrito y se los lista --}}
+      {{#each cart.products}}
+      <li>
+            <p>Producto: {{this.product.title}}</p>
+            <p>Cantidad: {{this.quantity}}</p>
+            <p>Precio: {{this.product.price}}</p>
+      </li>
+      
+      {{/each}}
+</ul>
+<h3>Precio total del carrito {{cart.id}}: {{cart.subtotal}}</h3>

@@ -1,0 +1,61 @@
+<div class="row justify-content-center pe-1 ps-1">
+      <div class="col-xxl-8 col-xl-8 col-lg-6 col-md-8 col-sm-8 col-xs-12 border mt-5 mb-5 pt-5 pb-5" id="login">
+            <div class="bloque animate__animated animate__flipInX">
+                  <div class="row">
+                        <h2 class="col-12 text-center">Iniciar sesión</h2>
+                  </div>
+                  <div class="row">
+                        <div class="col-12 d-flex justify-content-center">
+                              <form class="col-xxl-5 col-xl-5 col-lg-6 col-md-8 col-sm-10 col-xs-12 mt-4" id="loginForm">
+                                    <div class="mb-1">
+                                          <input type="email" class="form-control form-control-lg rounded-0 enter"
+                                                name="email" placeholder="E-MAIL" maxlength="60">
+                                    </div>
+                                    <p class="hidden" id="emailVacioInicio">E-MAIL no puede estar vacio</p>
+                                    <p class="hidden" id="emailIncorrectoInicio">E-MAIL incorrecto</p>
+                                    <div class="mt-4">
+                                          <input type="password"
+                                                class="form-control form-control-lg rounded-0 passwordUsuario enter"
+                                                name="password" placeholder="CONTRASEÑA" maxlength="60">
+                                    </div>
+                                    <p class="hidden" id="passwordVaciaInicio">Contraseña no puede estar vacia</p>
+                                    <div class="mb-2 mt-4">
+                                          <button type="submit" class="col-12 btn btn-primary rounded-0">
+                                                <a class="text-decoration-none text-reset">INICIAR</a>
+                                          </button>
+                                    </div>
+                                    <p class="hidden" id="usuarioNoExiste">El usuario y/o contraseña ingresada incorrecta.</p>
+                              </form>
+                              
+                        </div>
+
+                        <p class="fs-6 text-primary mb-4">
+                              <a class="text-decoration-none" href="./login">
+                                    ¿Olvidaste tu Contraseña?
+                              </a>
+                        </p>
+                        
+
+                        <div class="row justify-content-center mt-2 me-0 ms-0">
+                              <hr class="col-10 ">
+                        </div>
+                        
+
+                        <div class="mb-4 mt-2">
+                              <button type="submit" class="col-8 btn btn-dark rounded-0 p-3">
+                                    <a href="/api/sessions/github" class="text-decoration-none text-reset">INICIAR CON GITHUB</a>
+                              </button>
+                        </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                        <p class="fw-bold">
+                              ¿Sos nuevo? Creá tu cuenta <a class="text-decoration-none btnAqui" id="btnAquiIngresar"
+                                    href="./register">aquí</a>
+                        </p>
+                  </div>
+            </div>
+      </div>
+</div>
+
+<script src="/js/login.js"></script>

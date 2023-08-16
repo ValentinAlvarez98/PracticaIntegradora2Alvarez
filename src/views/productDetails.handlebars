@@ -1,0 +1,15 @@
+<h1>{{title}}</h1>
+<p>Descripción: {{description}}</p>
+<p>Categoría: {{category}}</p>
+<p>Precio: {{price}}</p>
+<p>Stock: {{stock}}</p>
+<img src="{{thumbnails.[0]}}" alt="{{title}}">
+
+<!-- Agregar al carrito -->
+<form action="/addToCart" method="post">
+      <input type="hidden" name="productId" value="{{id}}">
+      <input type="submit" value="Agregar al carrito">
+</form>
+
+<!-- Enlace para volver a la lista de productos -->
+<a href="/products">Volver</a>

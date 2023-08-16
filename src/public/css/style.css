@@ -1,0 +1,63 @@
+.hidden {
+  display: none; }
+
+.visible {
+  display: block; }
+
+  .aclaraciones {
+  font-size: 0.8rem;
+  color: grey !important; }
+
+  main div {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem; }
+  main div div h2 {
+    color: #0074bd; }
+
+    #mainIngreso div div h2,
+#mainRegistro div div h2,
+#mainMiCuenta div div h2 {
+  color: #000000; }
+
+#mainIngreso div div #login div div div form div input,
+#mainIngreso div div #login div div div form div select,
+#mainRegistro div div #login div div div form div input,
+#mainRegistro div div #login div div div form div select,
+#mainMiCuenta div div #login div div div form div input,
+#mainMiCuenta div div #login div div div form div select {
+  font-size: 0.8rem;
+  padding: 0.85rem 1rem; }
+
+#mainIngreso div div #login div div div form div input:focus,
+#mainIngreso div div #login div div div form div select:focus,
+#mainRegistro div div #login div div div form div input:focus,
+#mainRegistro div div #login div div div form div select:focus,
+#mainMiCuenta div div #login div div div form div input:focus,
+#mainMiCuenta div div #login div div div form div select:focus {
+  border-color: #0074bd;
+  border-width: 0.14rem;
+  border-radius: 0.2rem !important;
+  box-shadow: none !important; }
+
+#mainIngreso div div #login div div div form div .btn,
+#mainRegistro div div #login div div div form div .btn,
+#mainMiCuenta div div #login div div div form div .btn {
+  padding: 1rem 1.5rem;
+  font-size: 1rem; }
+
+#mainIngreso div div #login div div div form p,
+#mainRegistro div div #login div div div form p,
+#mainMiCuenta div div #login div div div form p {
+  font-size: 0.8rem;
+  color: red; }
+
+#mainIngreso div div #login div div div form label,
+#mainRegistro div div #login div div div form label,
+#mainMiCuenta div div #login div div div form label {
+  font-size: 1.05rem;
+  color: #0074bd; }
+
+#mainIngreso div div #login .animate__animated .animate__flipInX,
+#mainRegistro div div #login .animate__animated .animate__flipInX,
+#mainMiCuenta div div #login .animate__animated .animate__flipInX {
+  animation-duration: 0.5s; }
